@@ -1,0 +1,33 @@
+.navbar-brand{
+  font-size: 1.5em;
+}
+
+#topContainer{
+  background-image: url("background.jpg");
+  max-width: 100%;
+  background-size: cover;
+}
+
+#topRow{
+  /* text-align: center; */
+  color: white;
+  margin-top:200px;
+}
+
+#topRow h1{
+  font-size: 300%;
+}
+
+.title{
+  margin-top: 100px;
+  font-size: 300%;
+}
+
+#footer{
+  background: #B0D1FB;
+  max-width: 100%;
+}
+
+.storeImage{
+  width: 250px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+    <title>The App</title>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top" id="navbar">
+      <a class="navbar-brand" href="#">The App</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#dowload">Download</a>
+          </li>
+        </ul>
+
+        <form class="form-inline">
+          <div class="form-group">
+            <input type="email" placeholder="Email" class="form-control mr-2">
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control mr-2">
+          </div>
+            <button type="submit" class="btn btn-success">Log In</button>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container contentContainer" id="topContainer">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 text-center" id="topRow">
+          <h1>The Awesome App</h1>
+          <p class="lead">This is why you should download this fantastic app!</p>
+          <p>Some more information about the app. You can go into a little more detail here if you want to.</p>
+          <p class="font-weight-bold mt-5">Interested? Join our mailing list!</p>
+          <form class="mt-4">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="email" placeholder="Email" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success btn-lg mt-3">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container contentContainer">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="title">Why This App Is Awesome</h1>
+          <p class="lead">Summary of the app's awesomeness</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 mt-3">
+          <h2>Header 1</h2>
+          <p>A brief description of oe of the best features of your app. A brief description of oe of the best features of your app.</p>
+          <button type="button" class="btn btn-success mt-2">Sign Up!</button>
+        </div>
+        <div class="col-md-4 mt-3">
+          <h2>Header 2</h2>
+          <p>A brief description of oe of the best features of your app. A brief description of oe of the best features of your app.</p>
+          <button type="button" class="btn btn-success mt-2">Sign Up!</button>
+        </div>
+        <div class="col-md-4 mt-3">
+          <h2>Header 3</h2>
+          <p>A brief description of oe of the best features of your app. A brief description of oe of the best features of your app.</p>
+          <button type="button" class="btn btn-success mt-2">Sign Up!</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container contentContainer" id="footer">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="title">Download The App!</h1>
+          <p class="lead">Really, why should I download this app?</p>
+          <p> <img src="https://www.isport360.com/wp-content/uploads/2017/01/appstore-icon-mobile-retina.png" alt="" class="storeImage"> </p>
+
+          <h2>Contact Us</h2>
+
+          <?php echo $result ?>
+          <!-- <div class="container"> -->
+          <form method="post" class="col-sm-6 offset-md-3">
+            <div class="form-group">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" placeholder="Your Name" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" placeholder="Your Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="comment">Your Comment:</label>
+              <textarea id="comment" rows="8" cols="80" class="form-control"></textarea>
+              <!-- <input type="text" id="name" placeholder="Your Name" class="form-control"> -->
+            </div>
+            <button type="submit" name="button" class="btn btn-success mb-3">Submit!</button>
+          </form>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+<script src="index.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+    $(".contentContainer").css("min-height", $(window).height());
+    // $("#topContainer").css("width", $(window).width());
+
+    </script>
+
+
+  </body>
+</html>
